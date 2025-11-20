@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir - Portfolio Pelajar</title>
+    <!-- Memuat Tailwind CSS CDN untuk styling yang cepat dan responsif -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Menggunakan font Inter untuk tampilan yang bersih dan modern -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Warna dasar kuning yang sangat lembut dan minimalis (yellow-50) */
+            background-color: #fffbeb;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-gray-800 antialiased flex items-center justify-center p-4">
+
+    <!-- Container Utama: Batasan lebar untuk tampilan minimalis -->
+    <main class="w-full max-w-3xl bg-white shadow-xl rounded-xl overflow-hidden p-8 md:p-12 transition duration-300 hover:shadow-2xl">
+        
+        <!-- Header & Informasi Dasar -->
+        <header class="text-center mb-10">
+            <!-- Garis kuning sebagai elemen dekoratif minimalis -->
+            <div class="h-1 w-20 bg-yellow-400 mx-auto mb-4 rounded-full"></div>
+            
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                AMIR
+            </h1>
+            <p class="text-xl text-yellow-600 mt-2 font-medium">
+                Pelajar | Calon Akuntan Profesional
+            </p>
+        </header>
+
+        <!-- Bagian Tentang Saya -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-yellow-200 pb-2">
+                Tentang Saya
+            </h2>
+            <p class="text-gray-600 leading-relaxed">
+                Saya Amir, seorang pelajar yang bersemangat untuk belajar dan mengembangkan keahlian di bidang Akuntansi. Saya memiliki ketelitian yang baik dan siap mengaplikasikan ilmu yang didapat dalam proyek nyata. Portfolio ini adalah langkah awal saya untuk menunjukkan potensi dan rekam jejak pendidikan saya.
+            </p>
+        </section>
+
+        <!-- Bagian Riwayat Pendidikan -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-yellow-200 pb-2">
+                Riwayat Pendidikan
+            </h2>
+            <div class="space-y-4">
+                <!-- Item Pendidikan -->
+                <div class="flex items-start space-x-4 p-4 bg-yellow-50 rounded-lg shadow-sm">
+                    <!-- Ikon sederhana (bisa diganti dengan SVG jika diperlukan) -->
+                    <span class="text-yellow-600 text-2xl mt-1">
+                        &#127891; <!-- Emoji buku/toga sebagai ikon -->
+                    </span>
+                    <div>
+                        <p class="text-lg font-semibold text-gray-900">SMK Dewi Sartika</p>
+                        <p class="text-md text-gray-700">Jurusan Akuntansi</p>
+                        <p class="text-sm text-gray-500 italic mt-1">Fokus pada pembukuan, laporan keuangan, dan dasar-dasar perpajakan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Ajakan Aksi (Call to Action) / Kontak Placeholder -->
+        <footer class="text-center pt-8 border-t border-yellow-100">
+            <p class="text-gray-500 text-sm mb-4">
+                Tertarik untuk bekerjasama atau melihat proyek saya?
+            </p>
+            <a href="#kontak" class="inline-block px-6 py-2 text-white bg-yellow-600 rounded-full font-semibold shadow-md hover:bg-yellow-700 transition duration-300 transform hover:scale-105">
+                Hubungi Saya
+            </a>
+        </footer>
+
+    </main>
+
+    <!-- Script sederhana untuk efek hover pada tombol, jika diperlukan -->
+    <script>
+        // Placeholder untuk fungsionalitas JavaScript tambahan
+        // Misalnya: smooth scroll atau toggle dark mode.
+        console.log("Portfolio siap diluncurkan!");
+    </script>
+</body>
+  </html>
